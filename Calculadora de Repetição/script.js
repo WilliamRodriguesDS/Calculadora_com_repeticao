@@ -1,4 +1,4 @@
-function Calcular(){
+function calcular(){
     while(true){
         let operacao = parseFloat(prompt("Digite um número para:\n" + "1 - adição\n"+ "2 - substração\n" + "3 - multiplicação\n" + "4 - divisão\n" + "5 - sair\n"));
 
