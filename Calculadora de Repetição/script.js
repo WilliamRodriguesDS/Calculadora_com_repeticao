@@ -22,19 +22,19 @@ function calcular(){
                     alert(resultado);
                     break;
                 case 2:
-                    resultado = "O resultado da substração = " + n1 + " - " + n2+ " = " + (n1 - n2);
+                    resultado = "O resultado da substração " + n1 + " - " + n2+ " = " + (n1 - n2);
                     alert(resultado);
                     break;
                 case 3:
-                    resultado = "O resultado da multiplicação = " + n1 + " * " + n2 + " = " + (n1 - n2);
-                    alert(n1 * n2);
+                    resultado = "O resultado da multiplicação " + n1 + " * " + n2 + " = " + (n1 - n2);
+                    alert(resultado);
                     break;
                 case 4:
                     if(n1 === 0 || n2 === 0){
                         alert("Erro! impossível dividir com número 0");
                     }
                     else{
-                        resultado = "O resultado da divisão = " + n1 + " / " + n2 + " = " + (n1 - n2);
+                        resultado = "O resultado da divisão " + n1 + " / " + n2 + " = " + (n1 - n2);
                         alert(resultado);
                         break;
                     }
