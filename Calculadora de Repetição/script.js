@@ -22,7 +22,7 @@ function calcular(){
                     alert(resultado);
                     break;
                 case 2:
-                    resultado = "O resultado da substração " + n1 + " - " + n2+ " = " + (n1 - n2);
+                    resultado = "O resultado da substração " + n1 + " - " + n2 + " = " + (n1 - n2);
                     alert(resultado);
                     break;
                 case 3:
