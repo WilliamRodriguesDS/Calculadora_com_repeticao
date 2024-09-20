@@ -1,6 +1,6 @@
-function iniciarCalculoeCalcular(){
+function Calcular(){
     while(true){
-        let operacao = parseFloat(prompt("Digite um número para:\n" + "1 - adição \n"+ "2 - substração\n" + "3 - multiplicação\n" + "4 - divisão\n" + "5 - sair\n"));
+        let operacao = parseFloat(prompt("Digite um número para:\n" + "1 - adição\n"+ "2 - substração\n" + "3 - multiplicação\n" + "4 - divisão\n" + "5 - sair\n"));
 
         let resultado;
 
@@ -18,15 +18,15 @@ function iniciarCalculoeCalcular(){
 
             switch(operacao){
                 case 1:
-                    resultado = "O resultado da soma = " + (n1 + n2);
+                    resultado = "O resultado da soma " + n1 + " + " + n2 + " = "+ (n1 + n2);
                     alert(resultado);
                     break;
                 case 2:
-                    resultado = "O resultado da substração = " + (n1 - n2);
+                    resultado = "O resultado da substração = " + n1 + " - " + n2+ " = " + (n1 - n2);
                     alert(resultado);
                     break;
                 case 3:
-                    resultado = "O resultado da multiplicação = " + (n1 - n2);
+                    resultado = "O resultado da multiplicação = " + n1 + " * " + n2 + " = " + (n1 - n2);
                     alert(n1 * n2);
                     break;
                 case 4:
@@ -34,10 +34,10 @@ function iniciarCalculoeCalcular(){
                         alert("Erro! impossível dividir com número 0");
                     }
                     else{
-                        resultado = "O resultado da divisão = " + (n1 - n2);
+                        resultado = "O resultado da divisão = " + n1 + " / " + n2 + " = " + (n1 - n2);
                         alert(resultado);
+                        break;
                     }
-                    break;
             }
             }
     }
